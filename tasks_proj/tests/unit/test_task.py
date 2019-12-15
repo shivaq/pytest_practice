@@ -5,6 +5,7 @@
 # Task.__new__.__defaults__ = (None, None, False, None)
 from tasks import Task
 
+
 def test_asdict():
     """_asdict() sould return a dictionary """
 
