@@ -1,8 +1,12 @@
 """Main API for tasks project."""
 
-from six import string_types
-from collections import namedtuple
 from typing import NamedTuple
+from six import string_types
+# from collections import namedtuple
+
+# Task element types : [summary: str, owner: str, done: bool, id: int]
+# Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])
+# Task.__new__.__defaults__ = (None, None, False, None)
 
 
 class Task(NamedTuple):
