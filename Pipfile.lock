@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "828b8ad012f4c8773e6e61e3ac2be0ffcd7540fd7ed175a8355676c8e31c4d3d"
+            "sha256": "9a63e242cbc932e82b6f69691de59435cb7b865cf06e97c3671532becb900b1c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -80,6 +80,9 @@
                 "sha256:30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66"
             ],
             "version": "==1.13.0"
+        },
+        "tasks": {
+            "path": "./tasks_proj"
         },
         "wcwidth": {
             "hashes": [
