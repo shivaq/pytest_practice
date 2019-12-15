@@ -7,6 +7,14 @@ pip install ./tasks_proj/
 
  -> then, you can use the module in python interactive shell
  from tasks import some_func
+
+ Caution!!!!!
+You may meet situation with NoModuleFound error.
+This is occured maybe...
+1. Because of Pipfile.lock...
+   When I delete Pipfile, I can pip install the module and NoModule error disappeared
+
+
 """
 """Minimal setup file for tasks project."""
 
